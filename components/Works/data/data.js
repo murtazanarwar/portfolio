@@ -31,7 +31,7 @@ const data = [
         image_url: "https://res.cloudinary.com/dhpftsqpt/image/upload/v1756674662/Gemini_Generated_Image_gz6qztgz6qztgz6q_kn1o3z.png",
         work_title: "Concurrent In-Memory KV Store",
         description: "Designed a high-performance, concurrent key-value store in modern C++17, leveraging a custom Radix Trie for efficient, algorithm-driven storage. Optimized for high-concurrency reads and eliminated memory leaks by using std::shared_mutex and RAII principles with std::unique_ptr.",
-        link: "https://github.com/murtazanarwar/In-Memory-Key-Value-Store",
+        link: "",
         github: "https://github.com/murtazanarwar/In-Memory-Key-Value-Store",
         genre: "Systems Program / Database Technology"
     }

@@ -33,18 +33,26 @@ const Works = () => {
                                     <b className="text-teal-500 mb-2">⎯⎯ {work.genre}</b>
                                     <p className="text-gray-300 text-sm leading-6 m-0">{work.description}</p>
                                     <div className="flex flex-row space-x-2 w-full">
-                                        <button className="py-2 px-4 bg-white mt-4 text-black ease-in-out duration-150 border-2 border-white rounded-md hover:bg-gray-900 hover:border-gray-900 hover:text-white" style={{width: "100%"}} title="Visit website">
-                                            <a href={work.link}  className="flex justify-between items-center gap-1 font-semibold text-md p-0 m-0">
-                                                <span>Visit website</span>
-                                                <HiOutlineArrowNarrowRight />
-                                            </a>
-                                        </button>
-                                        <button className="py-2 px-4 bg-white mt-4 text-black ease-in-out duration-150 border-2 border-white rounded-md hover:bg-gray-900 hover:border-gray-900 hover:text-white" style={{width: "100%"}} title="Visit website">
-                                            <a href={work.github}  className="flex justify-between items-center gap-1 font-semibold text-md p-0 m-0">
-                                                <span>View Code</span>
-                                                <HiOutlineArrowNarrowRight />
-                                            </a>
-                                        </button>
+                                        {
+                                            work.link && work.link.length > 0 ? 
+                                            <button className="py-2 px-4 bg-white mt-4 text-black ease-in-out duration-150 border-2 border-white rounded-md hover:bg-gray-900 hover:border-gray-900 hover:text-white" style={{width: "100%"}} title="Visit website">
+                                                <a href={work.link} className="flex justify-between items-center gap-1 font-semibold text-md p-0 m-0">
+                                                    <span>Visit website</span>
+                                                    <HiOutlineArrowNarrowRight />
+                                                </a>
+                                            </button>
+                                            : null
+                                        }
+                                        {
+                                            work.github && work.github.length > 0 ?
+                                            <button className="py-2 px-4 bg-white mt-4 text-black ease-in-out duration-150 border-2 border-white rounded-md hover:bg-gray-900 hover:border-gray-900 hover:text-white" style={{width: "100%"}} title="Visit website">
+                                                <a href={work.github} className="flex justify-between items-center gap-1 font-semibold text-md p-0 m-0">
+                                                    <span>View Code</span>
+                                                    <HiOutlineArrowNarrowRight />
+                                                </a>
+                                            </button>
+                                            : null
+                                        }
                                     </div>
                                 </div>
                             </div>
