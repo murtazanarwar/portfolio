@@ -4,8 +4,8 @@ const data = [
         image_url: "https://res.cloudinary.com/dhpftsqpt/image/upload/v1756673744/Screenshot_2025-09-01_022400_jfggvy.png",
         work_title: "Kartly Admin",
         description: "Architected a full-stack Content Management System for e-commerce using Next.js, Prisma, and PostgreSQL. This enabled flexible product and coupon management, reducing manual update time by 40% , and provided sales analytics via a Recharts dashboard",
-        link: "https://house-holders-hub-admin.vercel.app",
-        github: "https://github.com/murtazanarwar/E-Commerce-Admin",
+        link: "https://kartly-admin.vercel.app",
+        github: "https://github.com/murtazanarwar/Kartly-Admin",
         genre: "E-commerce CMS & Dashboard"
     },
     {
@@ -13,8 +13,8 @@ const data = [
         image_url: "https://res.cloudinary.com/dhpftsqpt/image/upload/v1756673912/Screenshot_2025-09-01_022820_ivqled.png",
         work_title: "Kartly Store",
         description: "Developed a secure and responsive e-commerce storefront with a seamless checkout process using the Razorpay payment gateway. Engineered a JWT-based authentication system and an interactive review engine to secure user data and drive product credibility through customer feedback",
-        link: "https://house-holder-hub-store.vercel.app",
-        github: "https://github.com/murtazanarwar/E-Commerce-Store",
+        link: "https://kartly-store.vercel.app",
+        github: "https://github.com/murtazanarwar/Kartly-Store",
         genre: "E-commerce Platform / Web Storefront"
     },
     {
